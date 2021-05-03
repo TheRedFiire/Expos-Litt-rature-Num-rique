@@ -1,0 +1,10 @@
+body {
+    background: #131313;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
