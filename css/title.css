@@ -2,12 +2,8 @@
 
 .title{
   animation: glitch 1s linear infinite;
-  font-size: 96px;
+  font-size: clamp(1rem, 5vw, 98px);
   font-family: 'Fira Mono', monospace;
-}
-
-#list {
-  font-size: 50px;
 }
 
 @keyframes glitch{
@@ -24,8 +20,10 @@
 
 .title:before,
 .title:after{
-  content: attr(title);
   position: absolute;
+  content: attr(title);
+  justify-content: center;
+  align-content: center;
   left: 0;
 }
 

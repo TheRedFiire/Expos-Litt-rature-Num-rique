@@ -1,10 +1,17 @@
 body {
     background: #131313;
     color: #fff;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -13,17 +20,16 @@ body {
 }
 
 footer {
-    padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 a {
-    font-size: 2rem;
+    font-size: clamp(1rem, 2rem, 5rem);
     font-weight: normal;
     padding: 1.8rem 4.3rem;
     color: #f4f4f4;
