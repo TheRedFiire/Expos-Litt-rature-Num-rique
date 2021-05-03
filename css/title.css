@@ -6,6 +6,10 @@
   font-family: 'Fira Mono', monospace;
 }
 
+#list {
+  font-size: 50px;
+}
+
 @keyframes glitch{
   2%,64%{
     transform: translate(2px,0) skew(0deg);
