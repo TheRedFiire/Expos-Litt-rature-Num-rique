@@ -1,0 +1,15 @@
+.content {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  padding-right: 8em; 
+  padding-left: 8em;
+  font-size: clamp(1rem, 2rem, 5rem);
+  font-weight: normal;
+  color: #f4f4f4;
+  text-transform: none;
+  text-align: center;
+}
