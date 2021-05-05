@@ -4,12 +4,28 @@
   align-items: center;
 }
 
-#text {
-  padding-right: 8em; 
-  padding-left: 8em;
-  font-size: clamp(1rem, 1.8rem, 2rem);
-  font-weight: normal;
-  color: #f4f4f4;
-  text-transform: none;
-  text-align: center;
+@media(min-width: 768px) and (max-width: 1388px) {
+  #text {
+    padding-right: 8em; 
+    padding-left: 8em;
+    font-size: clamp(1rem, 1.7rem, 2rem);
+    /* font-size: clamp(0.1rem, 0.8rem, 2rem); */
+    font-weight: normal;
+    color: #f4f4f4;
+    text-transform: none;
+    text-align: center;
+  }
+}
+
+@media(max-width: 767px) {
+  #text {
+    padding-right: 8em; 
+    padding-left: 8em;
+    /* font-size: clamp(1rem, 1.8rem, 2rem); */
+    font-size: clamp(0.1rem, 0.8rem, 2rem);
+    font-weight: normal;
+    color: #f4f4f4;
+    text-transform: none;
+    text-align: center;
+  }
 }
