@@ -1,4 +1,4 @@
-button {
+.start {
     margin: 0;
     position: relative;
     vertical-align: middle;
@@ -16,11 +16,11 @@ button {
     color: white;
 }
   
-button:hover {
+.start:hover {
     box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }
   
-button::before, button::after {
+.start::before, .start::after {
     content: '';
     position: absolute;
     top: 0;
@@ -37,7 +37,60 @@ button::before, button::after {
     transition: all 650ms;
 }
   
-button:hover::after, button:hover::before {
+.start:hover::after, .start:hover::before {
     -webkit-transform: scale(1);
     left: 100%;
+}
+
+.textbutton {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 1.8rem 1.3rem;
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: hidden;
+    border: 0;
+    background-color: transparent;
+}
+
+.textbutton:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.infosbutton {
+    font-size: 30px;
+    color: #f4f4f4;
+    top: 30px;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.infosbutton:hover {
+    color: gray;
+}
+
+.copyright {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.copyright:hover {
+    color: gray;
 }

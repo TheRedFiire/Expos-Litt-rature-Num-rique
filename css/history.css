@@ -7,7 +7,7 @@
 #text {
   padding-right: 8em; 
   padding-left: 8em;
-  font-size: clamp(1rem, 2rem, 5rem);
+  font-size: clamp(1rem, 1.8rem, 2rem);
   font-weight: normal;
   color: #f4f4f4;
   text-transform: none;

@@ -9,17 +9,15 @@ body {
     align-items: center;
 }
 
-.box, .box1, .box2 {
+.box, .box1, .box2, .box3 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#text {
-    padding-right: 8em; 
-    padding-left: 8em;
-    font-size: clamp(1rem, 2rem, 5rem);
+#test {
+    display: flex;
 }
 
 #up {
@@ -30,29 +28,45 @@ body {
     margin-top: 5vh;
 }
 
-footer {
+.home-footer,  .text-footer, .end-footer{
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
-    font-size: clamp(1rem, 2rem, 5rem);
-    font-weight: normal;
+    display: block;
+    font-size: clamp(1rem, 2rem, 5rem);    
     padding: 1.8rem 1.3rem;
     color: #f4f4f4;
-    text-transform: uppercase;
-}
-
-.copyright {
-    font-size: 16px;
-    color: white;
     text-decoration: none;
 }
 
-.copyright:hover {
-    color: gray;
+.intro, .part1, .part2, .part3, .conclu, .before {
+    display: none;
+}
+
+#skip {
+    display: none;
+    font-size: clamp(1rem, 1.8rem, 2rem);
+}
+
+#next, #before {
+    display: none;
+    font-weight: bold;
+    font-size: clamp(1rem, 2rem, 2.4rem);
+}
+
+#end {
+    font-weight: bold;
+    font-size: clamp(1rem, 2rem, 2.4rem);
+}
+
+#dott {
+    display: none;
 }
