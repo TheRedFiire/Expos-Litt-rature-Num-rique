@@ -61,10 +61,15 @@ a {
     font-weight: bold;
     font-size: clamp(1rem, 2rem, 2.4rem);
 }
-
 #end {
     font-weight: bold;
     font-size: clamp(1rem, 2rem, 2.4rem);
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #dott {
